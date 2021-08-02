@@ -1,0 +1,227 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #001639;
+    color: #E3E3E3;
+}
+
+
+/* navbar */
+
+nav a:hover {
+    font-weight: 500;
+}
+
+nav .btn-outline-secondary,
+nav .btn-secondary {
+    border: none;
+}
+
+nav .btn-outline-secondary:hover {
+    background-color: transparent;
+}
+
+nav .btn-secondary {
+    background-color: #57527B;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav .dropdown .bg-dark {
+    background-color: #57527B !important;
+}
+
+
+/* header */
+
+
+/* .header {
+    margin: 120px 0;
+} */
+
+
+/* .header img {
+    width: 100%;
+} */
+
+.header h2 {
+    font-size: 3.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+/* .header p {
+    margin: 43px 0;
+} */
+
+.btn-primary,
+.btn-secondary,
+.btn-outline-secondary {
+    padding: 10px 30px;
+    border-radius: 11px;
+    font-weight: 500;
+    /* margin: 30px 0; */
+}
+
+.header .btn-primary {
+    background-color: #5A46DA;
+    border: none;
+}
+
+.header .btn-primary:hover {
+    background-color: #3d2e9b;
+}
+
+.header .btn-outline-secondary {
+    margin-left: 5px;
+}
+
+.hero {
+    /* background-image: url(img/Work_from_home-removebg-preview@2x.png);
+    background-size: cover;
+    background-position: center; */
+    width: 100%;
+    /* margin-top: -100px; */
+}
+
+
+/* services */
+
+.title {
+    margin-top: 172px;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.subtitle {
+    margin-bottom: 121px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card h5 {
+    font-size: 0.9em;
+}
+
+
+/* advantages */
+
+.thumb {
+    background-color: #3D4067;
+    margin-top: 182px;
+    margin-bottom: 189px;
+    border-radius: 11px;
+    padding: 20px 50px;
+}
+
+.advantages h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.advantages p {
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+
+/* top mentors */
+
+.top-mentors {
+    padding-bottom: 289px;
+    background-image: url(img/bg-bottom@2x.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-mentors h2 {
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+.top-mentors .link-more {
+    color: #E3E3E3;
+    font-size: 0.8em;
+    font-weight: 300;
+    /* text-align: right; */
+    padding-left: 92%;
+}
+
+.top-mentors .link-more:hover {
+    font-weight: 500;
+}
+
+.top-mentors .card {
+    opacity: 92%;
+    color: #5c5c5c;
+    /* width: 300px; */
+    border-radius: 11px;
+}
+
+.card-body .stars {
+    height: max-content;
+}
+
+.stars img {
+    width: 15px;
+}
+
+.detail img {
+    width: 20px;
+}
+
+.card-body a,
+.card-footer a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.card-body a:hover {
+    color: #224682;
+}
+
+.card-footer a:hover {
+    font-weight: 500;
+}
+
+
+/* footer */
+
+.footer a {
+    color: #E3E3E3;
+    font-weight: 600;
+}
+
+.footer-center a img:hover {
+    padding: 5px;
+    border-width: 5px;
+}
+
+.footer-center img {
+    width: 45px;
+}
+
+.footer-right p {
+    font-size: 0.8em;
+}
+
+@media (max-width: 420px) {
+    .header .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .header h2,
+    .header p {
+        text-align: center;
+    }
+}
+
+
+/* THIS IS THE LIMIT OF STYLE FOR hompage.html */
